@@ -1,8 +1,8 @@
-bigdata 과정
+bigdata 전문가 과정
 
 강사: 고병화
 
-email : digicope@aicore.co.kr
+E-mail : digicope@aicore.co.kr
 
 [강사 git주소 ]
 
