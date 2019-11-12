@@ -1,0 +1,74 @@
+[ 클래스 활용 기본 실습 문제 ]
+
+(문제마다 별도의 소스파일로 구현하세요)
+1. 계산기 프로그램 (계산기 클래스 작성)  
+   ( 1:'+', 2:'-', 3:'*', 4:'/', 0:end )
+   
+    <구현될 클래스>
+    (1) Calculator 클래스  : calculate() 메소드를 구현 eval()을 사용 4칙 연산 수행    
+     생성자에서 인스턴스 멤버를 하나 만들고 초기값을 { 1:'+', 2:'-', 3:'*', 4:'/' } 으로 설정
+   
+    (2) ControlCalculator 클래스 : 
+          생성자에 Calculator 클래스의 인스턴스 객체를
+          멤버로 만들어 놓고  calculate() 메소드를 구현 하여
+          Calculator 클래스의 calculate() 메소드를 호출한다
+
+    (3) ViewCalculator 클래스 :
+          생성자에 ControlCalculator 클래스의 인스턴스 객체를
+          멤버로 만들어 놓고  DisplayCalculator() 메소드를 구현 하여
+          무한루프에서 수를 입력받아 ControlCalculator 클래스의 
+          calculate() 메소드를 호출하여 결과를 print문으로 출력해준다	
+    
+    <메인 호출부분을 아래와 같이 구현한다>	
+    if __name__ == '__main__':
+        viewCalculator = ViewCalculator()
+        viewCalculator.DisplayCalculator()
+    
+    <클래스의 메서드 호출 순서 정리>
+    ViewCalculator 클래스의 DisplayCalculator() -->
+    ControlCalculator 클래스의 calculate()  -->
+    Calculator 클래스의 calculate() 메서드 순으로 호출된다
+    
+
+2. Student 클래스를 이용하여 다음과 같이 출력하는 프로그램
+   ( 학생수는 최대 10명이내에 대한 처리, 
+     이름이 'end'이거나 학생수가 10명 일때 결과 출력 )
+    
+    Hong 50 50 50 150 50.0 Fail
+    Kim  90 90 90 270 90.0 Excellent
+    Nam  70 70 70 210 70.0
+
+    <구현될 클래스>
+  (1) Student 클래스 : 
+    calculate() 메서드를 만들어 총점,평균,등급을 계산한다
+    printStudentInfo() 메서드를 만들어 이름,성적들,총점,평균,등급을 출력한다
+
+  (2) ControlScoreTable 클래스 : 
+    students 리스트 인스턴스 멤버를 만들고
+    inputStudentInfo() 메서드를 만들어 students 리스트에 정보를 추가한다
+    printScoreTable() 메서드를 만들어 Student 클래스의 printStudentInfo()
+    메서드를 호출하여 출력하게한다
+
+  (3) ViewScoreTable 클래스 :
+    생성자에  ControlScoreTable 클래스 인스턴스 객체를
+    멤버로 만들어 놓고 
+    inputStudentInfo() 메서드를 만들고 무한 루프로 학생 이름과 성적을 입력받아
+       ControlScoreTable 클래스의 inputStudentInfo()를 
+    호출하여 students 리스트에 정보를 추가한다
+    printScoreTable()메서드를 만들어  ControlScoreTable 클래스의 
+    printScoreTable()를 호출하여 출력하게한다
+    ViewMenu() 메서드에서 inputStudentInfo()와 printScoreTable()를 호출한다
+
+    <메인 호출부분을 아래와 같이 구현한다>	
+    if __name__ == '__main__':
+        viewScoreTable = ViewScoreTable()
+        viewScoreTable.ViewMenu()
+
+    <클래스의 메서드 호출 순서 정리>
+    ViewScoreTable 클래스의 ViewMenu() --> inputStudentInfo()-->
+    Student 클래스의 생성자와
+    ControlScoreTable 클래스의 inputStudentInfo()
+    
+    ViewScoreTable 클래스의 ViewMenu() --> printScoreTable() -->
+    ControlScoreTable 클래스의 printScoreTable() -->
+    Student 클래스의 printStudentInfo
