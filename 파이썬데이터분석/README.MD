@@ -1,12 +1,12 @@
 pip install numpy pandas
 
 =============================================
-#### # pandas DataFrame 행 출력 최대값 설정방법
+#### - pandas DataFrame 행 출력 최대값 설정방법
 
 pd.set_option('display.max_rows', 1000)
 
 =============================================
-#### # pandas apply()와 람다식을 사용한 범위 분류
+#### - pandas apply()와 람다식을 사용한 범위 분류
 
 
 ##### # 나이에 따라 세분화된 분류를 수행하는 함수 생성. 
