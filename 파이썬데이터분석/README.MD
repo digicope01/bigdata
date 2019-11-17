@@ -106,3 +106,12 @@ df = pd.DataFrame({
    
    'Price' : 10 * rand(7), 'Number' : randint(1, 9, 7)})
 
+
+============================================================
+
+### 구글 colaboratory 사용법 : 무료 GPU 사용 (1회 12시간 이내)
+
+https://hiseon.me/data-analytics/google-colaboratory/
+
+
+============================================================
