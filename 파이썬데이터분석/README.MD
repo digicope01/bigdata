@@ -41,6 +41,27 @@ titanic
 
 
 =============================================
+유일한 값(unique value)을 찾고 개수도 세어보기
+
+ 
+
+ - pd.Series.unique() 를 이용한 유일한 값 찾기
+
+   (Return np.ndarray of unique values in the object)
+
+ 
+
+ - pd.Series.value_counts() 를 이용한 유일한 값별 개수 세기
+
+   (Returns object containing counts of unique values)
+
+
+
+출처: https://rfriend.tistory.com/267 [R, Python 분석과 프로그래밍의 친구 (by R Friend)]
+
+
+=============================================
+
 
 - merge() 예제 리스트 데이터셋
 
