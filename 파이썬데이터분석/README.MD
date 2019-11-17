@@ -1,9 +1,31 @@
 pip install numpy pandas
 
 =============================================
-* pandas DataFrame 행 출력 최대값 설정방법
+# pandas DataFrame 행 출력 최대값 설정방법
 
 pd.set_option('display.max_rows', 1000)
+
+=============================================
+# pandas apply()와 람다식을 사용한 범위 분류
+
+
+# 나이에 따라 세분화된 분류를 수행하는 함수 생성. 
+def get_category(age):
+    cat = ''
+    if age <= 5: cat = 'Baby'
+    elif age <= 12: cat = 'Child'
+    elif age <= 18: cat = 'Teenager'
+    elif age <= 25: cat = 'Student'
+    elif age <= 35: cat = 'Young Adult'
+    elif age <= 60: cat = 'Adult'
+    else : cat = 'Elderly'
+    
+    return cat
+
+# lambda 식에 위에서 생성한 get_category( ) 함수를 반환값으로 지정. 
+# get_category(X)는 입력값으로 ‘age’ 컬럼 값을 받아서 해당하는 cat 반환
+titanic['age_cat'] = titanic['age'].apply(lambda x : get_category(x))
+titanic[['age','age_cat']].head(100)
 
 =============================================
 
