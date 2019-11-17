@@ -11,7 +11,9 @@ pd.set_option('display.max_rows', 1000)
 
 ##### # 나이에 따라 세분화된 분류를 수행하는 함수 생성. 
 def get_category(age):
+
     cat = ''
+    
     if age <= 5: cat = 'Baby'
     
     elif age <= 12: cat = 'Child'
