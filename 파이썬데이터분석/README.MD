@@ -1,6 +1,12 @@
 pip install numpy pandas
 
-=================================
+=============================================
+* pandas DataFrame 행 출력 최대값 설정방법
+
+pd.set_option('display.max_rows', 1000)
+
+=============================================
+
 - merge() 예제 리스트 데이터셋
 
 employee = [{'empno':1, 'ename':'kim', 'dept':1}, 
