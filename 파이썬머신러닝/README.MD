@@ -9,3 +9,10 @@
 데이터 파일  : https://www.kaggle.com/c/titanic/data
 
 
+타이타닉 생존자 예측 머신러닝 
+
+Titanic: Machine Learning from Disaster
+Start here! Predict survival on the Titanic and get familiar with ML basics
+
+https://www.kaggle.com/c/titanic/overview/tutorials
+
