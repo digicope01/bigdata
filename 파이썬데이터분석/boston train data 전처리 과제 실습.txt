@@ -2,5 +2,5 @@
 
 boston_train.csv파일을 읽어와서
 'CRIM', 'ZN', 'TAX', 'MED' 컬럼을 scikit-learn을 사용하여
-각각 표준화와 정규화를 거쳐서 이상치를 제거하여
-4개의 subplot으로 출력하세요
+각각 표준화와 정규화를 거쳐서 이상치(outlier)를 제거하여
+matplotlib를 사용하여 4개의 subplot으로 한 화면에 출력하세요
