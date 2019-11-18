@@ -1,0 +1,58 @@
+[ matplotlib  실습]
+
+1. Boston 데이터 시각화 실습 문제 
+
+   1.1 boston_train.csv 파일을 읽어와서 log plot을 출력하세요
+       'CRIM'과 'MEDV' 컬럼의 데이터를 사용한다
+
+   1.2 boston_train.csv 파일을 읽어와서 scatter plot을 출력하세요
+       'CRIM'과 'MEDV','ZN' 컬럼의 데이터를 사용한다
+
+   1.3 boston_train.csv 파일을 읽어와서 plot 및 scatter plot에 범례와 주석을
+      함께 출력하세요
+       'CRIM'과 'MEDV','ZN' 컬럼의 데이터를 사용한다
+
+   1.4 boston_train.csv파일을 읽어와서 3차원 plot을 출력하세요
+       'CRIM'과 'MEDV','ZN' 컬럼의 데이터를 사용한다
+
+   <Pandas 플로팅>
+   1.5 boston_train.csv파일을 읽어와서 pandas를 사용해서
+    'MEDV'의 지연 plot을 출력하세요
+
+   1.6 boston_train.csv 파일을 읽어와서 pandas를 사용해서
+    'MEDV'의 자기 상관 plot을 출력하세요
+
+   1.7 boston_train.csv 파일을 읽어와서 pandas를 사용해서
+       전체 컬럼의 box plot과 'TAX' 컬럼의 box plot을 출력하세요       
+
+
+
+2. matplotlib사용 성적 데이터 시각화 실습 문제
+
+<데이터셋>
+   kor = [50,20,80,90,50,30,70,80,90,50]
+   eng = [20,90,30,10,70,60,20,50,40,50]
+   math = [20,30,50,20,25,65,100,23,40,47]
+   name = ['홍','순','임','이','황','김1','김2','김3','김4','김5']
+   df = pd.DataFrame({'국어':kor,'영어':eng,'수학':math})
+   df.index = name
+
+ 2.1 국어, 영어 점수에 대한 바차트를 그리시오
+     (범례도 출력한다)
+     
+ 2.2 영어, 수학 점수에 대한 boxplot을 그리시오
+     (중앙값도 text로 출력한다)
+
+ 2.3 이름 별 국어 점수를 파이 차트로 그리시오
+     (타이틀을 '개인별 국어점수' 로 출력한다)
+
+ 2.4 국어, 영어, 수학 점수를 라인 차트로 그리시오
+     (범례도 출력한다)
+
+ 2.5 수학 점수에 대한 scatter를 그리고 점수를 text로 표시하시오
+
+ 2.6 국어, 영어, 수학 점수를 stacked bar로 그리시오
+     (bar에 점수값을 text로 출력한다,범례도 출력)
+
+
+
