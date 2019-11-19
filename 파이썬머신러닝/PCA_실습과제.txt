@@ -1,4 +1,4 @@
-* 주성분 분석
+* 주성분 분석 및 RandomForestClassifier 실습 과제
 
 titanic 데이터셋을 읽어서
 PCA(주성분 분석)을 사용하여 차원을 축소하고
