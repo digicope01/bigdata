@@ -6,7 +6,9 @@
 
 예제코드 : https://github.com/wikibook/ml-definitive-guide/
 
+
 데이터 파일  : https://www.kaggle.com/c/titanic/data
+
 
 
 타이타닉 생존자 예측 머신러닝 
