@@ -6,3 +6,5 @@ RandomForestClassifier를 사용하여 학습 모델을 구현하고
 원본 데이터 사용시와 비교하여 정확도를 검증하는 코드를 구현하세요
 
 데이터 파일 : https://www.kaggle.com/c/titanic/data
+
+train.csv 파일에서 학습용과 테스트용을 분리해서 검증에 사용한다
