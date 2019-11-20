@@ -25,7 +25,7 @@ kaggle에 있는 titanic 데이터셋을 읽어서
 (2) 평균이동(Mean Shift) 사용한 군집화를 구현해보세요
   최적화된 bandwidth를 구하고 군집화된 결과를 시각화해보세요
 
-( titanic_clustering.ipynb 파일에 두가지를 모두 구현하여 제출하세요 )
+( titanic_kmeans_meanshift.ipynb 파일에 두가지를 모두 구현하여 제출하세요 )
 
 ===================================================================
 
