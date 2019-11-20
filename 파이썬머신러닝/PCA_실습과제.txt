@@ -1,6 +1,8 @@
 * PCA(주성분 분석) 및 RandomForestClassifier 실습 과제
 
-titanic 데이터셋을 읽어서
+kaggle에 있는 titanic 데이터셋을 읽어서
 PCA(주성분 분석)을 사용하여 차원을 축소하고
 RandomForestClassifier를 사용하여 학습 모델을 구현하고
 원본 데이터 사용시와 비교하여 정확도를 검증하는 코드를 구현하세요
+
+데이터 파일 : https://www.kaggle.com/c/titanic/data
