@@ -1,4 +1,4 @@
-
+* 머신러닝을 위한 데이터 전처리 알고리즘 실습
 
 [1] PCA(주성분 분석) 및 RandomForestClassifier 실습 과제
 
