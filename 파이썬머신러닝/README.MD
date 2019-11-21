@@ -32,3 +32,22 @@ https://www.kaggle.com/c/titanic/overview/tutorials
 https://class.coursera.org/ml-003/lecture
 
 
+=====================================================================
+
+# fit() 과 transform() 결합사용
+from sklearn.base import TransformerMixin
+class A(TransformerMixin):
+    def fit(self,X):
+        print('fit:',X)
+        return self
+    def transform(self,X):
+        print('trans:',X)
+        return X
+        
+inst = A()
+inst.fit('x_data')
+inst.transform('y_data')
+inst.fit_transform('my_data')   
+
+
+=====================================================================
