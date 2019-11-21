@@ -61,6 +61,7 @@ inst.transform('y_data')
 inst.fit_transform('my_data')   
 
 <출력>
+
 fit: x_data
 
 trans: y_data
