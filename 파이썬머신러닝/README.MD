@@ -34,7 +34,7 @@ https://class.coursera.org/ml-003/lecture
 
 =====================================================================
 
-# fit() 과 transform() 결합사용
+#### fit() 과 transform() 결합사용
 from sklearn.base import TransformerMixin
 
 class A(TransformerMixin):
