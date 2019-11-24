@@ -22,6 +22,13 @@ https://www.kaggle.com/c/titanic/overview/tutorials
 
 =============================================================
 
+신용카드 사기 검출 데이터 세트 (144MB)
+
+https://www.kaggle.com/mlg-ulb/creditcardfraud
+
+
+=============================================================
+
  Tensorflow 머신러닝 동영상 강의
  
  홍콩과기대 김성훈 교수 우리말 강의
