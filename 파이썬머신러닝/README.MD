@@ -6,9 +6,12 @@
 
 예제코드 : https://github.com/wikibook/ml-definitive-guide/
 
+예제코드 : https://github.com/chulminkw/PerfectGuide
+
 동영상강의 : https://www.inflearn.com/course/파이썬-머신러닝-완벽가이드/news
 
 데이터 파일  : https://www.kaggle.com/c/titanic/data
+
 
 
 
