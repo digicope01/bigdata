@@ -47,6 +47,13 @@ https://class.coursera.org/ml-003/lecture
 
 =============================================================
 
+앙상블 학습 및 랜덤 포레스트 설명
+
+https://excelsior-cjh.tistory.com/166
+
+
+=============================================================
+
 #### fit() 과 transform() 결합사용
 from sklearn.base import TransformerMixin
 
