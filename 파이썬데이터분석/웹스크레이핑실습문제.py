@@ -76,7 +76,7 @@ print(area)
 # 1.6
 print('1.6','-'*50)
 import googlemaps
-gmaps_key = "AIzaSyCcw89SLkOaJ5r8xoL3aFkUx0kpu7baLRg" # 자신의 key를 사용합니다.
+gmaps_key = "xxxxxxxxxxxxxxxxxxxxxx" # 자신의 key를 사용합니다.
 gmaps = googlemaps.Client(key=gmaps_key)
 
 def get_lat_lng(addr):
