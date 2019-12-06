@@ -8,9 +8,12 @@ https://dacon.io/cpt14
 
 
 
-# konlpy 설치
-# pip install konlpy
+konlpy 설치
 
-# Mecab 설치
-# http://konlpy.org/en/latest/install/
-# https://cleancode-ws.tistory.com/97
+pip install konlpy
+
+Mecab 설치
+
+http://konlpy.org/en/latest/install/
+
+https://cleancode-ws.tistory.com/97
