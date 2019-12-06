@@ -4,3 +4,13 @@ Mission 14. 금융문자 분석 경진대회
 
 
 https://dacon.io/cpt14
+
+
+
+
+# konlpy 설치
+# pip install konlpy
+
+# Mecab 설치
+# http://konlpy.org/en/latest/install/
+# https://cleancode-ws.tistory.com/97
