@@ -9,3 +9,8 @@ E-mail : digicope@aicore.co.kr
 https://github.com/digicope01/bigdata
 
 
+
+[데이터 과학 경진대회 사이트 모음]
+
+https://theorydb.github.io/dev/2019/06/23/dev-competition-list/
+
