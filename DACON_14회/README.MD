@@ -8,9 +8,8 @@ https://dacon.io/cpt14
 
 
 
-konlpy 설치
+konlpy 설치: pip install konlpy
 
-pip install konlpy
 
 Mecab 설치
 
